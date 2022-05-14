@@ -1,4 +1,4 @@
-# PostgreSQL Database using Docker-Compose
+# PostgreSQL Dockerized
 ![alt text](https://miro.medium.com/max/849/1*a9qoq1sVtPYgCrT0KSIk9w.png)
 
 
