@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  image:
+    environment:
+      - TZ=America/Sao_Paulo
+      - POSTGRES_USER=${DATABASE_USER}
+      - POSTGRES_PASSWORD=${DATABASE_PASSWORD}
+      - POSTGRES_DATABASE=${DATABASE_NAME}
+    volumes:
+      - ./confs/postgresql.conf:/etc/postgresql.conf
+      - ./confs/pg_hba.conf:/etc/pg_hba.conf
+    ports:
+      - "5432:5432"
+    restart: always
+    container_name: postgres
+    build:
+      context: ./
+      dockerfile: Dockerfile
