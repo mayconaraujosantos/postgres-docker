@@ -1,2 +1,2 @@
 FROM postgres:13-alpine 
-#ADD ./initdb.d /docker-entrypoint-initdb.d/
+ADD ./initdb.d /docker-entrypoint-initdb.d/
