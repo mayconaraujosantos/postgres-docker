@@ -9,7 +9,6 @@
 ## Step 1: copy .env.local to .env
 ```console
 $ make env-file:
-  crate a  username and password in .env file
 ```
  
 ## Step 2: create  the container
