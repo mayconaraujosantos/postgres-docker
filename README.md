@@ -8,7 +8,7 @@
 
 ## Step 1: copy .env.local to .env
 ```console
-$ make env-file:
+$ make env:
 ```
  
 ## Step 2: create  the container
